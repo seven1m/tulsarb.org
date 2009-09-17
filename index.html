@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+	<title>Tulsa.rb - Tulsa Ruby User Group - Tulsa, Oklahoma</title>
+	<meta http-equiv="content-type" 
+		content="text/html;charset=utf-8" />
+	<meta http-equiv="Content-Style-Type" content="text/css" />
+
+  <style type="text/css">
+    .highlight .hll { background-color: #ffffcc }
+    .highlight .c { color: #888888 } /* Comment */
+    .highlight .err { color: #a61717; background-color: #e3d2d2 } /* Error */
+    .highlight .k { color: #008800; font-weight: bold } /* Keyword */
+    .highlight .cm { color: #888888 } /* Comment.Multiline */
+    .highlight .cp { color: #cc0000; font-weight: bold } /* Comment.Preproc */
+    .highlight .c1 { color: #888888 } /* Comment.Single */
+    .highlight .cs { color: #cc0000; font-weight: bold; background-color: #fff0f0 } /* Comment.Special */
+    .highlight .gd { color: #000000; background-color: #ffdddd } /* Generic.Deleted */
+    .highlight .ge { font-style: italic } /* Generic.Emph */
+    .highlight .gr { color: #aa0000 } /* Generic.Error */
+    .highlight .gh { color: #303030 } /* Generic.Heading */
+    .highlight .gi { color: #000000; background-color: #ddffdd } /* Generic.Inserted */
+    .highlight .go { color: #888888 } /* Generic.Output */
+    .highlight .gp { color: #555555 } /* Generic.Prompt */
+    .highlight .gs { font-weight: bold } /* Generic.Strong */
+    .highlight .gu { color: #606060 } /* Generic.Subheading */
+    .highlight .gt { color: #aa0000 } /* Generic.Traceback */
+    .highlight .kc { color: #008800; font-weight: bold } /* Keyword.Constant */
+    .highlight .kd { color: #008800; font-weight: bold } /* Keyword.Declaration */
+    .highlight .kn { color: #008800; font-weight: bold } /* Keyword.Namespace */
+    .highlight .kp { color: #008800 } /* Keyword.Pseudo */
+    .highlight .kr { color: #008800; font-weight: bold } /* Keyword.Reserved */
+    .highlight .kt { color: #888888; font-weight: bold } /* Keyword.Type */
+    .highlight .m { color: #0000DD; font-weight: bold } /* Literal.Number */
+    .highlight .s { color: #dd2200; background-color: #fff0f0 } /* Literal.String */
+    .highlight .na { color: #336699 } /* Name.Attribute */
+    .highlight .nb { color: #003388 } /* Name.Builtin */
+    .highlight .nc { color: #bb0066; font-weight: bold } /* Name.Class */
+    .highlight .no { color: #003366; font-weight: bold } /* Name.Constant */
+    .highlight .nd { color: #555555 } /* Name.Decorator */
+    .highlight .ne { color: #bb0066; font-weight: bold } /* Name.Exception */
+    .highlight .nf { color: #0066bb; font-weight: bold } /* Name.Function */
+    .highlight .nl { color: #336699; font-style: italic } /* Name.Label */
+    .highlight .nn { color: #bb0066; font-weight: bold } /* Name.Namespace */
+    .highlight .py { color: #336699; font-weight: bold } /* Name.Property */
+    .highlight .nt { color: #bb0066; font-weight: bold } /* Name.Tag */
+    .highlight .nv { color: #336699 } /* Name.Variable */
+    .highlight .ow { color: #008800 } /* Operator.Word */
+    .highlight .w { color: #bbbbbb } /* Text.Whitespace */
+    .highlight .mf { color: #0000DD; font-weight: bold } /* Literal.Number.Float */
+    .highlight .mh { color: #0000DD; font-weight: bold } /* Literal.Number.Hex */
+    .highlight .mi { color: #0000DD; font-weight: bold } /* Literal.Number.Integer */
+    .highlight .mo { color: #0000DD; font-weight: bold } /* Literal.Number.Oct */
+    .highlight .sb { color: #dd2200; background-color: #fff0f0 } /* Literal.String.Backtick */
+    .highlight .sc { color: #dd2200; background-color: #fff0f0 } /* Literal.String.Char */
+    .highlight .sd { color: #dd2200; background-color: #fff0f0 } /* Literal.String.Doc */
+    .highlight .s2 { color: #dd2200; background-color: #fff0f0 } /* Literal.String.Double */
+    .highlight .se { color: #0044dd; background-color: #fff0f0 } /* Literal.String.Escape */
+    .highlight .sh { color: #dd2200; background-color: #fff0f0 } /* Literal.String.Heredoc */
+    .highlight .si { color: #3333bb; background-color: #fff0f0 } /* Literal.String.Interpol */
+    .highlight .sx { color: #22bb22; background-color: #f0fff0 } /* Literal.String.Other */
+    .highlight .sr { color: #008800; background-color: #fff0ff } /* Literal.String.Regex */
+    .highlight .s1 { color: #dd2200; background-color: #fff0f0 } /* Literal.String.Single */
+    .highlight .s1 a { color: #dd2200; background-color: #fff0f0 } /* Literal.String.Single */
+    .highlight .ss { color: #aa6600; background-color: #fff0f0 } /* Literal.String.Symbol */
+    .highlight .bp { color: #003388 } /* Name.Builtin.Pseudo */
+    .highlight .vc { color: #336699 } /* Name.Variable.Class */
+    .highlight .vg { color: #dd7700 } /* Name.Variable.Global */
+    .highlight .vi { color: #3333bb } /* Name.Variable.Instance */
+    .highlight .il { color: #0000DD; font-weight: bold } /* Literal.Number.Integer.Long */
+    .highlight .expand { text-decoration: none }
+  </style>
+  
+  <script type="text/javascript">
+    function expand(section, link) {
+      if(link.innerHTML == '+') {
+        document.getElementById(section + '_code').style.display = '';
+        document.getElementById(section + '_dots').style.display = 'none';
+        link.innerHTML = '-';
+      } else {
+        document.getElementById(section + '_code').style.display = 'none';
+        document.getElementById(section + '_dots').style.display = '';
+        link.innerHTML = '+';
+      }
+    }
+  </script>
+  
+  <link rel="icon" type="image/vnd.microsoft.icon" href="/favicon.ico" />
+  <link rel="SHORTCUT ICON" href="/favicon.ico"/>
+  
+</head>
+
+<body>
+
+<div class="highlight"><pre>  <span class="c1">#!/usr/bin/env ruby</span>
+
+  <span class="c1"># tulsa.rb</span>
+
+  <span class="nb">require</span> <span class="s1">&#39;place_to_meet&#39;</span>
+  <span class="nb">require</span> <span class="s1">&#39;rubyists&#39;</span>
+
+<a href="#" onclick="expand('class',this);return false;" class="expand">-</a> <span class="k">class</span> <span class="nc">RubyUserGroup</span> <span class="o">&lt;</span> <span class="no">UserGroup</span> <span id="class_dots" style="display:none;">...</span><span id="class_code" >
+
+    <span class="n">has_many_interests</span> <span class="ss">:ruby</span><span class="p">,</span> <span class="ss">:rails</span><span class="p">,</span> <span class="ss">:sinatra</span><span class="p">,</span> <span class="ss">:jruby</span><span class="p">,</span> <span class="ss">:ruby19</span><span class="p">,</span> <span class="ss">:etc</span>
+
+<a href="#" onclick="expand('find_place_to_meet',this);return false;" class="expand">+</a>   <span class="k">def</span> <span class="nf">find_place_to_meet</span><span class="p">(</span><span class="n">within</span><span class="p">)</span> <span id="find_place_to_meet_dots">...</span><span id="find_place_to_meet_code" style="display:none;">
+      <span class="no">PlaceToMeet</span><span class="o">.</span><span class="n">find_all_within_radius</span><span class="p">(</span><span class="n">within</span><span class="p">)</span><span class="o">.</span><span class="n">detect</span> <span class="k">do</span> <span class="o">|</span><span class="n">place</span><span class="o">|</span>
+        <span class="n">place</span><span class="o">.</span><span class="n">available?</span> <span class="ow">and</span> <span class="p">\</span>
+        <span class="n">place</span><span class="o">.</span><span class="n">has_free_wifi?</span>
+      <span class="k">end</span>
+    <span class="k">end</span></span>
+  
+<a href="#" onclick="expand('have_meeting',this);return false;" class="expand">+</a>   <span class="k">def</span> <span class="nf">have_meeting</span> <span id="have_meeting_dots">...</span><span id="have_meeting_code" style="display:none;">
+      <span class="n">organizer</span> <span class="o">=</span> <span class="n">organizers</span><span class="o">.</span><span class="n">detect</span> <span class="p">{</span> <span class="o">|</span><span class="n">o</span><span class="o">|</span> <span class="ow">not</span> <span class="n">o</span><span class="o">.</span><span class="n">busy?</span> <span class="p">}</span>
+      <span class="n">place</span> <span class="o">=</span> <span class="n">find_place_to_meet</span><span class="p">(</span><span class="mi">10</span><span class="o">.</span><span class="n">miles</span><span class="p">)</span>
+      <span class="k">if</span> <span class="n">organizer</span> <span class="ow">and</span> <span class="n">place</span>
+        <span class="n">organizer</span><span class="o">.</span><span class="n">notify_rubyists_via</span><span class="p">(</span><span class="ss">:twitter</span><span class="p">,</span> <span class="ss">:website</span><span class="p">,</span> <span class="ss">:calendar</span><span class="p">,</span> <span class="ss">:google_group</span><span class="p">)</span>
+        <span class="no">Meeting</span><span class="o">.</span><span class="n">new</span><span class="p">(</span><span class="ss">:place</span> <span class="o">=&gt;</span> <span class="n">place</span><span class="p">)</span>
+      <span class="k">end</span>
+    <span class="k">end</span></span>
+
+  <span class="k">end</span></span>
+
+  <span class="k">if</span> <span class="vg">$0</span> <span class="o">==</span> <span class="bp">__FILE__</span>
+
+    <span class="n">tulsa_ruby_user_group</span> <span class="o">=</span> <span class="no">RubyUserGroup</span><span class="o">.</span><span class="n">new</span><span class="p">(</span>
+      <span class="ss">:website</span>      <span class="o">=&gt;</span> <span class="s1">&#39;<a href="http://tulsarb.org">http://tulsarb.org</a>&#39;</span><span class="p">,</span>
+      <span class="ss">:twitter</span>      <span class="o">=&gt;</span> <span class="s1">&#39;<a href="http://twitter.com/tulsarb">http://twitter.com/tulsarb</a>&#39;</span><span class="p">,</span>
+      <span class="ss">:calendar</span>     <span class="o">=&gt;</span> <span class="s1">&#39;<a href="http://tinyurl.com/tulsarbcal">http://tinyurl.com/tulsarbcal</a>&#39;</span><span class="p">,</span>
+      <span class="ss">:google_group</span> <span class="o">=&gt;</span> <span class="s1">&#39;<a href="http://groups.google.com/group/tulsarb">http://groups.google.com/group/tulsarb</a>&#39;</span><span class="p">,</span>
+      <span class="ss">:organizers</span>   <span class="o">=&gt;</span> <span class="o">[</span>
+        <span class="no">Rubyist</span><span class="o">.</span><span class="n">find_by_url</span><span class="p">(</span><span class="s1">&#39;<a href="http://timmorgan.org">http://timmorgan.org</a>&#39;</span><span class="p">),</span>
+        <span class="no">Rubyist</span><span class="o">.</span><span class="n">find_by_url</span><span class="p">(</span><span class="s1">&#39;<a href="http://ibspoof.com">http://ibspoof.com</a>&#39;</span><span class="p">)</span>
+      <span class="o">]</span>
+    <span class="p">)</span>
+
+    <span class="kp">loop</span> <span class="k">do</span>
+      <span class="n">have_meeting</span>
+      <span class="nb">sleep</span> <span class="mi">1</span><span class="o">.</span><span class="n">month</span>
+    <span class="k">end</span>
+    
+  <span class="k">end</span>
+  
+  <span class="c1"># copyright 2009, Tulsa Ruby User Group</span>
+  <span class="c1"># email info@tulsarb.org or ask questions in our Google Group (url above)</span>
+  <span class="c1"># website inspired by http://jobs.37signals.com/jobs/5572</span>
+</pre></div>
+  
+</body>
+
+</html>
