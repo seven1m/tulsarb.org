@@ -47,7 +47,7 @@ if $0 == __FILE__
   
 end
 
-# copyright 2009, Tulsa Ruby User Group
 # email info@tulsarb.org or ask questions in our Google Group (url above)
 # website inspired by http://jobs.37signals.com/jobs/5572
+# fork this at http://github.com/seven1m/tulsarb.org
 
