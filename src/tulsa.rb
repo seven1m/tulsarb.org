@@ -35,7 +35,6 @@ if $0 == __FILE__
     :calendar     => 'http://tinyurl.com/tulsarbcal',
     :google_group => 'http://groups.google.com/group/tulsarb',
     :organizers   => [
-      Rubyist.find_by_url('http://timmorgan.org'),
       Rubyist.find_by_url('http://ibspoof.com')
     ]
   )
